@@ -97,7 +97,7 @@ Inside each department's `Groups` sub-OU I created a global security group named
 
 I also created a dedicated `IT-JuniorHelp` security group and added the **Jr Helpdesk** account to it — this group would later receive the delegated permission.
 
-> *Screenshot slot: `02-finance-users.png` — users inside Finance > Users.*
+> *Screenshot slot: `02-Finance-Users.png` — users inside Finance > Users.*
 
 ### 3. Delegation of Control
 
@@ -114,13 +114,13 @@ Logged into `MUS-WIN-02` as **Jr Helpdesk**, opened ADUC (via RSAT), and tested 
 
 That single pair of results is the portfolio payoff — a live demonstration of least privilege working exactly as designed.
 
-> *Screenshot slots: `03-reset-success-finance.png` and `04-access-denied-IT.png`.*
+> *Screenshot slots: `03-Reset-Success-Finance.png` and `04-Access-Denied-IT.png`.*
 
 ### 5. Forced password change on logon
 
 To close the loop, I logged off and signed back in to `MUS-WIN-02` as the Finance user **adan** using the reset password. Windows correctly prompted *"The user's password must be changed before signing in,"* I set a new complex password, and the system confirmed *"Your password has been changed."* This validates the "force password change at next logon" half of the delegated right.
 
-> *Screenshot slots: `05-force-password-change.png` and `06-password-changed.png`.*
+> *Screenshot slots: `05-Force-Password-Change.png` and `06-Password-Changed.png`.*
 
 ---
 
