@@ -97,7 +97,8 @@ Inside each department's `Groups` sub-OU I created a global security group named
 
 I also created a dedicated `IT-JuniorHelp` security group and added the **Jr Helpdesk** account to it — this group would later receive the delegated permission.
 
-> *Screenshot slot: `02-Finance-Users.png` — users inside Finance > Users.*
+> ![Full OU structure on the domain controller, showing CORP with IT, HR, Finance, Sales, and Marketing sub-OUs](images/02-Finance-Users.png)
+
 
 ### 3. Delegation of Control
 
