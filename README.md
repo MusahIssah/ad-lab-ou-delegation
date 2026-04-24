@@ -115,14 +115,22 @@ Logged into `MUS-WIN-02` as **Jr Helpdesk**, opened ADUC (via RSAT), and tested 
 
 That single pair of results is the portfolio payoff — a live demonstration of least privilege working exactly as designed.
 
-> *Screenshot slots: `03-Reset-Success-Finance.png` and `04-Access-Denied-IT.png`.*
+> ![Successful password reset for Alex Dan in the Finance OU](images/03-Reset-Success-Finance.png)
+*Figure 3 — Jr Helpdesk successfully resets a Finance user's password. The delegation is working as designed.*
+
+![Access denied when attempting to reset Daniel Mills' password in the IT OU](images/04-Access-Denied-IT.png)
+*Figure 4 — The same Jr Helpdesk account is blocked from resetting a password outside the delegated scope. Least privilege, proven.*
+
 
 ### 5. Forced password change on logon
 
 To close the loop, I logged off and signed back in to `MUS-WIN-02` as the Finance user **adan** using the reset password. Windows correctly prompted *"The user's password must be changed before signing in,"* I set a new complex password, and the system confirmed *"Your password has been changed."* This validates the "force password change at next logon" half of the delegated right.
 
-> *Screenshot slots: `05-Force-Password-Change.png` and `06-Password-Changed.png`.*
+> ![Windows login screen prompting the user to change their password before signing in](images/05-Force-Password-Change.png)
+*Figure 5 — On next logon, Windows enforces the password change as specified by the delegated right.*
 
+![Confirmation that the password has been changed](images/06-Password-Changed.png)
+*Figure 6 — End-to-end workflow complete: reset by help-desk, forced change by user, new credentials in place.*
 ---
 
 ## Issues Encountered & Resolved
