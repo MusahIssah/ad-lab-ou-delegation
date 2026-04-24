@@ -126,7 +126,7 @@ That single pair of results is the portfolio payoff — a live demonstration of 
 
 To close the loop, I logged off and signed back in to `MUS-WIN-02` as the Finance user **adan** using the reset password. Windows correctly prompted *"The user's password must be changed before signing in,"* I set a new complex password, and the system confirmed *"Your password has been changed."* This validates the "force password change at next logon" half of the delegated right.
 
- ![Windows login screen prompting the user to change their password before signing in](images/05-Force-Password-Change.png)
+![Windows login screen prompting the user to change their password before signing in](images/05-Forced-Password-Change.png)
 *Figure 5 — On next logon, Windows enforces the password change as specified by the delegated right.*
 
 ![Confirmation that the password has been changed](images/06-Password-Changed.png)
