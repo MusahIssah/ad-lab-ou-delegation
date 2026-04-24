@@ -79,7 +79,7 @@ Musah.com
 
 **Why this structure?** Separating each department into its own OU with standardized `Users / Computers / Groups` sub-OUs gives clean boundaries for (1) delegating administrative rights to a specific team without exposing the whole domain, and (2) targeting Group Policy Objects at the right scope later on.
 
-> ![Full OU Structure on Domain Controller](images/01-ou-structure-server.png)
+> (images/01-ou-structure-server.png)
 
 ---
 
