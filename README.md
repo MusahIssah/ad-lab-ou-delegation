@@ -1,5 +1,11 @@
 # Active Directory Lab — OU Design, User & Group Management, and Delegated Administration
 
+## Walkthrough Video
+
+    [![Active Directory Lab Walkthrough](images/Video-thumbnail.png)](https://youtu.be/CbXegseTR5I)
+
+    *Click the thumbnail to watch the full walkthrough on YouTube (≈7 minutes).*
+
 **Author:** Musah
 **Environment:** Hyper-V | Windows Server 2022 | Windows 10 Pro
 **Domain:** `Musah.com`
