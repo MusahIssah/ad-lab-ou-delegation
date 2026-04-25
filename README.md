@@ -2,7 +2,7 @@
 
 ## Walkthrough Video
 
-    [![Active Directory Lab Walkthrough](images/Video-thumbnail.png)](https://youtu.be/CbXegseTR5I)
+![Active Directory Lab Walkthrough](images/Video-thumbnail.png)(https://youtu.be/CbXegseTR5I)
 
     *Click the thumbnail to watch the full walkthrough on YouTube (≈7 minutes).*
 
